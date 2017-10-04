@@ -1,0 +1,13 @@
+<meta>
+    <info name="GrooveRider" description="Slot car racing based gamemode" author="DanNyel" type="gamemode" version="0.1"/>
+    <script src="classlib.lua" type="server"/>
+    <script src="PlayerClass.lua" type="server"/>
+    <script src="objectReplacement.lua" type="client"/>
+    <script src="base.lua" type="server"/>
+    <file src="1.txd" type="client"/>
+    <file src="1.dff" type="client"/>
+	<file src="1.col" type="client"/>
+	<file src="2.dff" type="client"/>
+	<file src="2.col" type="client"/>
+    <oop>true</oop>
+</meta>
