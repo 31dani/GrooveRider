@@ -1,9 +1,5 @@
 PlayerClass = {}
 
-function PlayerClass:test()
-    self:outputChat("asd")
-end
-
 function PlayerClass:load()
     self:fadeCamera(false, 0)
     self:spawn(0, 0, 10)
