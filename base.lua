@@ -57,14 +57,13 @@ function createTrack()
 
     raceStartMatrix = track[1].matrix
 
-    ---[[
     spawnPoints = {
         Vehicle(411, raceStartMatrix:transformPosition(Vector3(1.5, 0, 1.3)), raceStartMatrix.rotation),
         Vehicle(411, raceStartMatrix:transformPosition(Vector3(-1.5, 0, 1.3)), raceStartMatrix.rotation),
         Vehicle(411, raceStartMatrix:transformPosition(Vector3(4.5, 0, 1.3)), raceStartMatrix.rotation),
         Vehicle(411, raceStartMatrix:transformPosition(Vector3(-4.5, 0, 1.3)), raceStartMatrix.rotation),
     }
-    --]]--
+    
 end
 
 function loadPlayers()
