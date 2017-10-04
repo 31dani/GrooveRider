@@ -1,6 +1,10 @@
 # Changelog
 
-0.1.5
+0.1.2
+
+- Code clean up
+
+0.1.1
 
 - Set up pipeline config file and gitlab-runner to deploy directly at MTA's server resource folder
 
